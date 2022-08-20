@@ -1,28 +1,42 @@
 @media screen and (max-width: 760px){
-header{
-    flex-direction: column;
-}
+    header{
+        flex-direction: column;
+    }
+    
+    main{
+        flex-direction: column;
+    }
+    
+    h2{
+        font-size: 20px;
+       
+        
+    }
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+    input{
+        align-self: center;
+    }
+    img{
+       display: flex;
+     
+    }
+    ul{
+        text-align: center;
+    }
+    
+    }
+    
+    @media screen and (max-width:800px){
 
-main{
-    flex-direction: column;
-}
+        .pie-pagina .grupo1{
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+            padding: 35px 0px;
+         }
 
-h2{
-    font-size: 30px;
-}
-form{
-    margin: 0 auto;
-    width: 100%;
-}
-input{
-    align-self: center;
-}
-img{
-   display: none;
-  
-}
-ul{
-    text-align: center;
-}
 
-}
+    }

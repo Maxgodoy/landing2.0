@@ -1,119 +1,308 @@
 body{
-   margin: 0 ;
-   padding:0 ;
-   box-sizing: border-box;
-}
-.inicio{
-   
-    width: 100%;
-    color:#fff ;
-    margin: 0%;
-}
-.title{
+    margin: 0 ;
+    padding:0 ;
+    box-sizing: border-box;
+ }
+ .inicio{
+     width: 100%;
+     color:#fff ;
+     margin: 0%;
+ }
+ .title{
+     color: #fff;
+     }
+ header{
+     width: 100%;
+    
+     top: 0px;
+     left: 0;
+     background-color:#002B5B;
+ 
+ 
+ 
+ 
+ }
+
+ 
+ 
+ .header__principal{
+ 
+     max-width: 1200px;
+     margin: auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ 
+ }
+ 
+ .datos{
+     background-color:#2B4865;
+     width: 100%;
+     height: 400px;
+     
+ }
+ 
+ 
+ .link{
+     color: #fff;
+ }
+ 
+ .olvido{
+    margin-top: 20px;
+    margin-left: 50px;
+ }
+
+ .crear{
+    margin-top: 20px;
+    margin-left: 46px;
+ }
+
+
+
+ .olvidoycrear{
     color: #fff;
+ }
+
+ 
+ 
+ 
+
+ 
+
+ #title{
+     flex-direction: column;
+     line-height: 10px;
+ }
+ 
+ li{
+     display: inline-block;
+     margin: 20px;
+ }
+ 
+ 
+ a{
+     color:#fff ;
+ }
+ 
+ .texto__correo{
+     color: white;
+ }
+ 
+ 
+ h1{
+     font-weight: 200;
+ }
+ main{
+     display: flex;
+     flex-direction: row;
+    margin-top: 0%;
+ }
+ 
+ .subtitle{
+     color: #fff;
+ }
+ 
+ a:hover{
+     color: #006CD4;
+     transition: 0.3s all;
+ }
+ 
+ 
+ 
+ 
+ 
+ form [type="submit"]{
+     height: 50px;
+     width: 50%;
+     background-color:#002B5B;
+     color:#fff;
+     font-weight:bold ;
+ }
+ 
+ 
+ 
+ 
+ form{
+     display: flex;
+     flex-direction: column;
+     width: 70%;
+ 
+ }
+ 
+ input {
+     margin-top: 20px;
+     height: 20px;
+     padding: 15px;
+     border-radius: 20px;
+     border: none;
+     font-size: 15px;
+ }
+
+
+.thermomix{
+    width: 150px;
+    height: 250px;
 }
-header{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color:#1C3879;
-
-
-
-
-}
-.header__principal{
-
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.datos{
-    background-color:#607EAA;
-    width: 100%;
-    height: 500px;
-    margin-top:50px;
-}
-
-
-.link{
-    color: #fff;
-}
-
-
-#title{
-    flex-direction: column;
-    line-height: 10px;
-}
-
-li{
-    display: inline-block;
-    margin: 20px;
-}
-
-
-a{
-    color:#fff ;
-}
-
-.texto__correo{
-    color: white;
-}
-
-
-h1{
-    font-weight: 200;
-}
-main{
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-}
-
-.subtitle{
-    color: #fff;
-}
-
-a:hover{
-    color: #006CD4;
-    transition: 0.3s all;
-}
-
 
 .microondas{
+    width: 250px;
+    height: 250px;
+}
+
+.aspiradora{
+    width: 250px;
+    height: 250px;
+}
+
+.horno{
+
+    width: 250px;
+    height: 250px;
     
+}
+
+.licuadora{
     width: 300px;
+    height: 250px;
+}
+
+.lavadora{
+    width: 200px;
+    height: 250px;
 }
 
 
-form [type="submit"]{
-    height: 50px;
-    width: 50%;
-    background-color: rebeccapurple;
-    color: #fff;
-    font-weight:bold ;
+ .product h3{
+    font-size: 1,7em;
+    margin-top:5px ;
+    margin-bottom:5px ;
+    
 }
 
-
-
-
-form{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-
-}
-
-input {
-    margin-top: 20px;
-    height: 20px;
-    padding: 15px;
+.card{
+    width: 400px;
     border-radius: 20px;
-    border: none;
-    font-size: 15px;
+    background-color:#fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+ }
+
+ .productos{
+    background-color:#fff;
+ }
+
+
+ .adicionales{
+    background-color: #2B4865;
+    margin-top: 0px;
+ }
+.clientesfelices{
+   text-align: center;
+   
+
 }
+ .family{
+    width: 400px;
+    height: 300px;
+ }
+
+.felizthermo{
+    width: 300px;
+    height:250px ;
+    margin-block-end: 100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.felizaspiradora{
+    width: 300px;
+    height: 250px;
+    margin-block-end: 100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+
+}
+
+.felizhorno{
+    width: 300px;
+    height: 250px;
+margin-block-end: 100px;
+border-radius: 50%;
+border: 5px solid #fff;
+}
+
+ .plus h2 {
+    color:#fff;
+    text-align: center;
+ }
+
+ .plus p{
+    color: #fff;
+   
+ }
+
+ .pie-pagina{
+    width: 100%;
+    background-color: #8FE3CF;
+ }
+
+ .pie-pagina .grupo1{
+    width: 100%;
+    max-width:1200px ;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+ }
+ 
+ .pie-pagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .pie-pagina .grupo1 .box figure img{
+    width: 250px;
+ }
+ 
+ .pie-pagina .grupo1 .box h2{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 20px;
+ }
+
+ .pie-pagina .grupo1 .box p{
+    color:black ;
+    margin-bottom: 10px;
+ }
+
+ .pie-pagina .grupo1 .redsocial a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: black;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+
+ }
+
+ .pie-pagina .grupo1 .redsocial a:hover{
+    color:#fff;
+ }
+
+ .pie-pagina .grupo2{
+background-color: black;
+padding: 15px 10px;
+text-align: center;
+color: #fff;
+ }
+
+ .pie-pagina .grupo2 small{
+font-size: 15px;
+ }
